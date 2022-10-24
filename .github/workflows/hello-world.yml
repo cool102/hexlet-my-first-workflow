@@ -1,5 +1,7 @@
+name: hello-world
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-        - run: echo "running ok"
+      - run: echo "Hello World!"
